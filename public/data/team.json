@@ -1,0 +1,32 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Alex Johnson",
+      "role": "Lead Organizer",
+      "department": "Computer Science",
+      "image": "/team/member1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "role": "Technical Head",
+      "department": "Computer Science",
+      "image": "/team/member2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Marcus Chen",
+      "role": "Design Lead",
+      "department": "Commerce",
+      "image": "/team/member3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Williams",
+      "role": "Outreach Coordinator",
+      "department": "Science",
+      "image": "/team/member4.jpg"
+    }
+  ]
+}

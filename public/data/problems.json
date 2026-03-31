@@ -1,0 +1,52 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "title": "Smart Campus Navigation",
+      "track": "Computer Science",
+      "problem": "Students often struggle to navigate large campus areas, find classrooms, and locate facilities efficiently, especially new students.",
+      "goal": "Develop an intelligent campus navigation system that provides real-time directions, facility information, and accessibility routes.",
+      "expectedOutcome": "A mobile-friendly web application with interactive maps, search functionality, and voice-guided navigation for campus facilities."
+    },
+    {
+      "id": 2,
+      "title": "Sustainable Lab Waste Management",
+      "track": "Science",
+      "problem": "Science laboratories generate chemical and biological waste that requires proper disposal, but current tracking methods are manual and error-prone.",
+      "goal": "Create a digital waste tracking and management system that ensures compliance with environmental regulations.",
+      "expectedOutcome": "A comprehensive platform for logging, tracking, and scheduling proper disposal of laboratory waste with automated compliance reports."
+    },
+    {
+      "id": 3,
+      "title": "Student Budget Tracker",
+      "track": "Commerce",
+      "problem": "College students often struggle with financial management, leading to overspending and inability to save for important expenses.",
+      "goal": "Build an intuitive personal finance application tailored for student needs and spending patterns.",
+      "expectedOutcome": "A user-friendly budgeting app with expense categorization, savings goals, and smart spending insights designed for students."
+    },
+    {
+      "id": 4,
+      "title": "AI-Powered Study Assistant",
+      "track": "Computer Science",
+      "problem": "Students spend excessive time organizing study materials and creating revision notes from various sources.",
+      "goal": "Develop an AI-powered tool that helps students organize, summarize, and create flashcards from their study materials.",
+      "expectedOutcome": "An intelligent study companion that can process documents, generate summaries, and create interactive study materials."
+    },
+    {
+      "id": 5,
+      "title": "Water Quality Monitoring Dashboard",
+      "track": "Science",
+      "problem": "Manual water quality testing is time-consuming, and data is often not accessible to stakeholders in real-time.",
+      "goal": "Create a dashboard that visualizes water quality parameters and alerts users to anomalies.",
+      "expectedOutcome": "An interactive dashboard displaying water quality metrics with trend analysis and automated alert systems."
+    },
+    {
+      "id": 6,
+      "title": "Local Business Marketplace",
+      "track": "Commerce",
+      "problem": "Small local businesses around the college lack digital presence and struggle to reach student customers.",
+      "goal": "Build a hyperlocal marketplace connecting campus students with nearby vendors and services.",
+      "expectedOutcome": "A marketplace platform featuring local businesses, student deals, and integrated ordering/booking systems."
+    }
+  ]
+}

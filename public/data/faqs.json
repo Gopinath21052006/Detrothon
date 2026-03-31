@@ -1,0 +1,44 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "Who can participate in Detroithack?",
+      "answer": "All students currently enrolled in SSM College of Arts and Science from Science, Computer Science, and Commerce streams are eligible to participate."
+    },
+    {
+      "id": 2,
+      "question": "Is there any registration fee?",
+      "answer": "No, participation in Detroithack is completely free. There are no registration fees or hidden charges."
+    },
+    {
+      "id": 3,
+      "question": "What is the team size?",
+      "answer": "Teams can have 2-4 members. Solo participation is not allowed to encourage collaboration. Cross-department teams are encouraged!"
+    },
+    {
+      "id": 4,
+      "question": "Do I need coding experience?",
+      "answer": "Not necessarily! While coding skills help for Computer Science track, Science and Commerce tracks can use no-code tools. Focus is on problem-solving and innovation."
+    },
+    {
+      "id": 5,
+      "question": "What should the PPT include?",
+      "answer": "Your presentation should cover: Problem Statement, Proposed Solution, Technical Approach, Expected Impact, and Team Introduction. Detailed format will be shared in guidelines."
+    },
+    {
+      "id": 6,
+      "question": "Where does the build phase happen?",
+      "answer": "The build phase is completely remote! Selected teams work from home for 7 days to develop their solutions."
+    },
+    {
+      "id": 7,
+      "question": "What are the prizes?",
+      "answer": "Winners receive recognition through trophies, medals, and certificates. This is about learning, innovation, and adding to your portfolio - no cash prizes."
+    },
+    {
+      "id": 8,
+      "question": "Can I switch tracks after registration?",
+      "answer": "Track selection is final after registration. Choose the track that best matches your team's skills and interests."
+    }
+  ]
+}

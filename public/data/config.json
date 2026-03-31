@@ -1,0 +1,29 @@
+{
+  "event": {
+    "name": "Detroithack 2026",
+    "tagline": "Student Innovation Hackathon",
+    "organizer": "Detroit Team",
+    "college": "SSM College of Arts and Science",
+    "description": "A college-wide innovation hackathon bringing together the brightest minds from Science, Computer Science, and Commerce streams to solve real-world problems."
+  },
+  "dates": {
+    "guidelinesRelease": "2026-01-12",
+    "registrationOpen": "2026-01-12",
+    "registrationClose": "2026-01-19T23:59:00",
+    "pptEvaluation": "2026-01-20",
+    "resultsAnnouncement": "2026-01-21",
+    "buildPhaseStart": "2026-01-22",
+    "buildPhaseEnd": "2026-01-29",
+    "finalShowcase": "2026-01-30"
+  },
+  "links": {
+    "register": "https://forms.google.com/detroithack-register",
+    "submitPPT": "https://forms.google.com/detroithack-submit",
+    "guidelines": "/guidelines.pdf"
+  },
+  "social": {
+    "whatsapp": "https://wa.me/919876543210",
+    "instagram": "https://instagram.com/detroithack",
+    "email": "detroithack@ssmcollege.edu"
+  }
+}

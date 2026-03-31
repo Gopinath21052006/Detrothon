@@ -1,0 +1,54 @@
+{
+  "phases": [
+    {
+      "id": 1,
+      "title": "Guidelines & PPT Format Released",
+      "date": "12-01-2026",
+      "description": "Official guidelines and presentation format documents will be released",
+      "icon": "FileText"
+    },
+    {
+      "id": 2,
+      "title": "Registration Opens",
+      "date": "12-01-2026",
+      "description": "Team registration portal goes live",
+      "icon": "UserPlus"
+    },
+    {
+      "id": 3,
+      "title": "Registration Closes",
+      "date": "19-01-2026",
+      "time": "11:59 PM",
+      "description": "Last date to register your team",
+      "icon": "Clock"
+    },
+    {
+      "id": 4,
+      "title": "PPT Evaluation",
+      "date": "20-01-2026",
+      "description": "Jury evaluates submitted presentations",
+      "icon": "CheckSquare"
+    },
+    {
+      "id": 5,
+      "title": "Results Announcement",
+      "date": "21-01-2026",
+      "description": "Selected teams for build phase announced",
+      "icon": "Trophy"
+    },
+    {
+      "id": 6,
+      "title": "Build Phase",
+      "date": "22-01-2026 → 29-01-2026",
+      "description": "Selected teams build their solutions from home",
+      "icon": "Code"
+    },
+    {
+      "id": 7,
+      "title": "Final Showcase",
+      "date": "30-01-2026",
+      "description": "Present your project and compete for victory",
+      "icon": "Presentation"
+    }
+  ]
+}
