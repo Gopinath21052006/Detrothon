@@ -3,9 +3,9 @@ import { useRef } from "react";
 
 const team = [
   { id: 1, name: "Gopinath R.", role: "Technical Head", dept: "Computer Science", tag: "G" },
+  { id: 2, name: "Karthikeyan J.", role: "Lead Organizer", dept: "Computer Science (AI)", tag: "K" },
   { id: 3, name: "Ishwarya N.", role: "Design Lead", dept: "Computer Science (DSA)", tag: "I" },
-  { id: 2, name: "Dharani R.", role: "Outreach Coordinator", dept: "Computer Science (DSA)", tag: "D" },
-  { id: 4, name: "Karthikeyan J.", role: "Lead Organizer", dept: "Computer Science (AI)", tag: "K" }
+  { id: 4, name: "Dharani R.", role: "Outreach Coordinator", dept: "Computer Science (DSA)", tag: "D" }
 ];
 
 

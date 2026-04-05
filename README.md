@@ -214,3 +214,9 @@ Replace Firebase with another backend
 Extend animations safely
 
 Reuse components for other hackathons
+
+
+deploy in friebase
+ 
+npm run build
+firebase deploy

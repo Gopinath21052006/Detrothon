@@ -10,6 +10,7 @@ const navLinks = [
   { href: "#prizes", label: "Prizes" },
   { href: "#team", label: "Team" },
   { href: "#faq", label: "FAQ" },
+  { href: "/documentation", label: "Proof" },
 ];
 
 export default function Navbar() {

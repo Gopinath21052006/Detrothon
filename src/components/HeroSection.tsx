@@ -153,7 +153,7 @@ export default function HeroSection() {
         >
           <span className="gradient-text">DETRO</span>
           <span className="text-foreground">THON</span>
-          <span className="text-neon-magenta ml-3">2026</span>
+          <span className="text-neon-magenta ml-3">2K26</span>
         </motion.h1>
         
 

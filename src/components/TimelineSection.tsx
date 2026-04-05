@@ -64,17 +64,25 @@ const phases = [
 { 
   id: 7, 
   title: "Final Showcase", 
-  date: "31 Jan 2026", 
+  date: "03 Feb 2026", 
   icon: Presentation, 
   description: "Final project demo and judging" 
 },
 
 { 
   id: 8, 
+  title: "Top 8 Teams Showcase", 
+  date: "18 Mar 2026", 
+  icon: Presentation, 
+  description: "Top 8 teams present their refined projects for final evaluation" 
+},
+
+{ 
+  id: 9, 
   title: "Winners Announced", 
-  date: "First Week of February 2026", 
+  date: "02 Apr 2026", 
   icon: Trophy, 
-  description: "Final winners are declared" 
+  description: "Final winners are officially declared" 
 }
 ];
 
