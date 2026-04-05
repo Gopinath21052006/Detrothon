@@ -11,8 +11,15 @@ const generateImages = (level, count, ext = "jpeg") => {
 export default function Documentation() {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [currentImages, setCurrentImages] = useState([]);
+  
+  const extraSections = [
+  { name: "Guest & Dignitary Honouring", key: "honour", count: 3 },
+  { name: "Winners & Runners", key: "winners", count: 3 },
+  { name: "Prize Distribution", key: "prize", count: 15 },
+];
 
   const levelConfig = [
+    { name: "Guest & Dignitary Honouring", key: "honour", count: 4 },
     { name: "Level 0", key: "level0", count: 11 },
     { name: "Level 1", key: "level1", count: 6 },
     { name: "Level 2", key: "level2", count: 14 },
@@ -76,6 +83,47 @@ export default function Documentation() {
           Project Proof & Evaluation
         </h1>
       </div>
+      {/* 🔥 FINAL RESULTS SECTION */}
+<section className="section-container py-16">
+
+  <h2 className="font-display gradient-text text-center mb-10 text-3xl">
+    Final Results & Highlights
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    {/* Top 8 Teams */}
+    <div className="glass-card p-6">
+      <h3 className="font-display text-lg mb-3 text-neon-cyan">
+        Guest & Dignitary Honouring
+      </h3>
+      <p className="text-muted-foreground text-sm">
+        Chief guests and dignitaries were honoured for their presence and contribution.
+      </p>
+    </div>
+
+    {/* Winners */}
+    <div className="glass-card p-6">
+      <h3 className="font-display text-lg mb-3 text-neon-cyan">
+        Winners & Runners
+      </h3>
+      <p className="text-muted-foreground text-sm">
+        Final winners and runners were selected based on performance and innovation.
+      </p>
+    </div>
+
+    {/* Prize Distribution */}
+    <div className="glass-card p-6">
+      <h3 className="font-display text-lg mb-3 text-neon-cyan">
+        Prize Distribution
+      </h3>
+      <p className="text-muted-foreground text-sm">
+        Awards, certificates, and recognitions were distributed to all deserving participants.
+      </p>
+    </div>
+
+  </div>
+</section>
 
       {/* LEVELS */}
       {levelConfig.map((lvl, index) => {
