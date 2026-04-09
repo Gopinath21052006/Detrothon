@@ -3,6 +3,45 @@ import {  Zap,Sparkles,Users,Target,ChevronRight,Brain,Cpu,Atom,Code,Palette,Glo
 import type { TargetAndTransition } from "framer-motion";
 
 import { useRef, useState } from "react";
+// 🔥 WINNERS
+const winnerTeams = [
+  {
+    rank: "🥇 Winner",
+    team: "Tech Titans",
+    leader: "Lakshmanaprabu M",
+    project: "Integrated Student Grievance & Mentor Support System",
+    dept: "BSc (CS)",
+    year: "2nd Year",
+    icon: Users,
+    color: "from-indigo-400 to-blue-600",
+    accent: "#6366f1",
+    gradient: "linear-gradient(135deg, #6366f1 0%, #2563eb 100%)",
+  },
+  {
+    rank: "🥈 Runner Up 1",
+    team: "Bio balance",
+    leader: "Krithiga S J",
+    project: "Digital Nutrition & Diet Recommendation System",
+    dept: "BSc Biochemistry",
+    year: "1st Year",
+    icon: Atom,
+    color: "from-rose-400 to-pink-600",
+    accent: "#fb7185",
+    gradient: "linear-gradient(135deg, #fb7185 0%, #be185d 100%)",
+  },
+  {
+    rank: "🥉 Runner Up 2",
+    team: "Khagol",
+    leader: "Harini K",
+    project: "Astronaut Assistance Robot for Space Station",
+    dept: "BSc (IT)",
+    year: "1st Year",
+    icon: Rocket,
+    color: "from-sky-400 to-blue-600",
+    accent: "#38bdf8",
+    gradient: "linear-gradient(135deg, #38bdf8 0%, #0284c7 100%)",
+  },
+];
 
 const teams = [
   {
@@ -105,17 +144,6 @@ const teams = [
     gradient: "linear-gradient(135deg, #ec4899 0%, #a21caf 100%)",
   },
   {
-    team: "Tech Ttittans",
-    leader: "Lakshmanaprabu M",
-    project: "Integrated Student Grievance & Mentor Support System",
-    dept: "BSc (CS)",
-    year: "2nd Year",
-    icon: Users,
-    color: "from-indigo-400 to-blue-600",
-    accent: "#6366f1",
-    gradient: "linear-gradient(135deg, #6366f1 0%, #2563eb 100%)",
-  },
-  {
     team: "Alphaforce",
     leader: "Megharaj A",
     project: "Style Smart AI",
@@ -160,17 +188,6 @@ const teams = [
     gradient: "linear-gradient(135deg, #f97316 0%, #dc2626 100%)",
   },
   {
-    team: "Bio balance",
-    leader: "Krithiga S J",
-    project: "Digital Nutrition & Diet Recommendation System",
-    dept: "BSc Biochemistry",
-    year: "1st Year",
-    icon: Atom,
-    color: "from-rose-400 to-pink-600",
-    accent: "#fb7185",
-    gradient: "linear-gradient(135deg, #fb7185 0%, #be185d 100%)",
-  },
-  {
     team: "Campus connectors",
     leader: "Keerthana N",
     project: "Campus connect",
@@ -202,17 +219,6 @@ const teams = [
     color: "from-red-400 to-pink-600",
     accent: "#ef4444",
     gradient: "linear-gradient(135deg, #ef4444 0%, #db2777 100%)",
-  },
-  {
-    team: "khagol",
-    leader: "Harini K",
-    project: "Astronaut Assistance Robot for Space Station",
-    dept: "BSc (IT)",
-    year: "1st Year",
-    icon: Rocket,
-    color: "from-sky-400 to-blue-600",
-    accent: "#38bdf8",
-    gradient: "linear-gradient(135deg, #38bdf8 0%, #0284c7 100%)",
   },
   {
     team: "Hack Heroes",
@@ -650,6 +656,24 @@ const AnimatedTeamCard = ({ team, index }) => {
     </motion.div>
   );
 };
+// ✅ FILTER PARTICIPANTS (NO DUPLICATES)
+const participants = teams.filter(
+  (team) =>
+    team.team !== "Tech Titans" &&
+    team.team !== "Bio balance" &&
+    team.team !== "Khagol"
+);
+
+const renderSingleCard = (team, index) => (
+  <div className="flex justify-center">
+    <div className="w-full max-w-md">
+      <AnimatedTeamCard 
+        team={{ ...team, isWinner: true }} 
+        index={index} 
+      />
+    </div>
+  </div>
+);
 
 export default function SelectedTeams() {
   return (
@@ -794,20 +818,47 @@ export default function SelectedTeams() {
             </motion.p>
           </motion.div>
         </motion.div>
+{/* 🥇 WINNER */}
+<section className="mb-20">
+  <h3 className="text-center text-3xl font-display gradient-text mb-8">
+    🥇 Winner
+  </h3>
+  {renderSingleCard(winnerTeams[0], 0)}
+</section>
 
-        {/* Team Cards */}
-        <motion.div
-          variants={container}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-50px" }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
-        >
-          {teams.map((team, index) => (
-            <AnimatedTeamCard key={team.team} team={team} index={index} />
-          ))}
-        </motion.div>
+{/* 🥈 RUNNER UP 1 */}
+<section className="mb-20">
+  <h3 className="text-center text-3xl font-display gradient-text mb-8">
+    🥈 Runner Up 1
+  </h3>
+  {renderSingleCard(winnerTeams[1], 1)}
+</section>
 
+{/* 🥉 RUNNER UP 2 */}
+<section className="mb-20">
+  <h3 className="text-center text-3xl font-display gradient-text mb-8">
+    🥉 Runner Up 2
+  </h3>
+  {renderSingleCard(winnerTeams[2], 2)}
+</section>
+
+{/* 👥 PARTICIPATION */}
+<section className="mt-20">
+  <h3 className="text-center text-3xl font-display gradient-text mb-12">
+    👥 Participation Teams
+  </h3>
+
+  <motion.div
+    variants={container}
+    initial="hidden"
+    whileInView="show"
+    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
+  >
+    {participants.map((team, index) => (
+      <AnimatedTeamCard key={team.team} team={team} index={index} />
+    ))}
+  </motion.div>
+</section>
         {/* Footer Note */}
         <motion.div
           initial={{ opacity: 0 }}

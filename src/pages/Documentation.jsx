@@ -24,6 +24,7 @@ export default function Documentation() {
     { name: "Level 1", key: "level1", count: 6 },
     { name: "Level 2", key: "level2", count: 14 },
     { name: "Level 3", key: "level3", count: 14 },
+    { name: "Prize Distribution", key: "other", count: 6}
   ];
 
   // 🔥 OPEN IMAGE
